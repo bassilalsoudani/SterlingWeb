@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- SEO Meta Tags -->
+    <title>Sterling Web | High-Converting Websites for Service Businesses</title>
+    <meta name="description"
+        content="Sterling Web specializes in creating high-converting websites and landing pages for service businesses. Book a strategy call today to elevate your digital presence.">
+    <meta name="keywords"
+        content="web design, service businesses, landing pages, conversion rate optimization, sterling web, business websites">
+    <meta property="og:title" content="Sterling Web | High-Converting Websites for Service Businesses">
+    <meta property="og:description"
+        content="Sterling Web handles strategy, design, and development for coaches, consultants, and professional services.">
+    <meta property="og:type" content="website">
+
+    <!-- Structured Data Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Sterling Web Studio",
+      "description": "High-converting websites for service businesses.",
+      "telephone": "+1-555-000-0000"
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0a182e", // Navy Blue
+                        "accent": "#d4af37", // Gold
+                        "background-light": "#f1f5f9",
+                        "background-dark": "#0f172a",
+                        "beige-custom": "#e2e8f0",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-background-light text-slate-900 font-display">
+
+    <nav class="sticky top-0 z-50 bg-background-light/95 backdrop-blur-sm border-b border-primary/10">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2 text-primary" aria-label="Sterling Web Home">
+                <span class="material-symbols-outlined text-3xl font-bold">architecture</span>
+                <span class="text-xl font-black tracking-tighter uppercase">Sterling Web</span>
+            </a>
+
+            <div class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-semibold hover:text-accent transition-colors" href="#services">Services</a>
+                <a class="text-sm font-semibold hover:text-accent transition-colors" href="#process">Process</a>
+                <a class="text-sm font-semibold hover:text-accent transition-colors" href="#work">Work</a>
+                <a href="#contact"
+                    class="bg-accent text-primary px-6 py-3 rounded-lg text-sm font-bold hover:brightness-110 transition-all shadow-md">
+                    Book a Strategy Call
+                </a>
+            </div>
+
+            <button id="mobile-menu-btn" class="md:hidden flex items-center text-primary p-2 focus:outline-none"
+                aria-label="Toggle Navigation">
+                <span class="material-symbols-outlined text-3xl">menu</span>
+            </button>
+        </div>
+
+        <div id="mobile-menu"
+            class="md:hidden bg-white border-b border-primary/10 absolute w-full left-0 origin-top shadow-xl">
+            <div class="px-6 py-4 flex flex-col gap-4">
+                <a class="mobile-link block text-base font-bold text-primary hover:text-accent"
+                    href="#services">Services</a>
+                <a class="mobile-link block text-base font-bold text-primary hover:text-accent"
+                    href="#process">Process</a>
+                <a class="mobile-link block text-base font-bold text-primary hover:text-accent" href="#work">Work</a>
+                <a class="mobile-link bg-accent text-primary px-6 py-3 rounded-lg text-center font-bold shadow-md"
+                    href="#contact">Book a Strategy Call</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="relative overflow-hidden pt-16 pb-24 md:pt-24 md:pb-32">
+            <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="z-10 reveal">
+                    <h1 class="text-5xl md:text-7xl font-black leading-[1.1] tracking-tight text-primary mb-8">
+                        Websites that turn service businesses into <span
+                            class="text-accent underline decoration-4 underline-offset-8">fully booked</span> calendars.
+                    </h1>
+                    <p class="text-xl text-slate-600 mb-10 max-w-xl leading-relaxed">
+                        Sterling Web handles strategy, design, and development for coaches, consultants, and
+                        professional services.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact"
+                            class="inline-block bg-accent text-primary px-8 py-4 rounded-lg font-bold text-lg hover:brightness-110 shadow-lg shadow-accent/20 transition-all">
+                            Book a Strategy Call
+                        </a>
+                        <a href="#process"
+                            class="inline-block bg-white border-2 border-primary text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary hover:text-white transition-all">
+                            See How We Work
+                        </a>
+                    </div>
+                </div>
+                <div class="relative group reveal delay-200">
+                    <div class="absolute -inset-4 bg-primary/5 rounded-xl -rotate-2"></div>
+                    <div class="relative grid grid-cols-2 gap-4">
+                        <div class="space-y-4 pt-12">
+                            <div class="bg-slate-200 h-64 rounded-xl overflow-hidden shadow-xl">
+                                <img loading="lazy"
+                                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                                    alt="Modern minimalist service business website mockup on a tablet"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUSjLvau1VgTIFn5UzpppQCZFZyQ0TLBtdKUtI5lgLMko4rAsyQtlOrxdEBz9a6CD2AYiXKrnBhBFqcYSA45bI-44xp0fMg9v4TBke7dWW8moMCXue5PjQ6kbw6sbdvYRT-4FcQE5B_yAB4Q4LHRkxjGrO-I-xyxgR9WfQFIpPmG1AnEqgH-ZKFanZjGlU6EhnnAVf7uDZTgygLK8ytdjp06zcj7qHM7kCsm1Ja5OHqo_ruZsIkKifq5EjyFMlzoLEOU3lgAmFwluZ" />
+                            </div>
+                            <div class="bg-slate-300 h-48 rounded-xl overflow-hidden shadow-xl">
+                                <img loading="lazy"
+                                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                                    alt="Laptop showing a luxury consultant landing page"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBi6iNERMphXzz4M3_pJgdtapEuVdhcIcVgn7q9z3JBho2ppR2rxJAXYVwyg8Fsp_NpT6mxyBn3XMgBMG17HpLvvovuYbfo9r7tXzqWNQTLHaOsaltjALAxkeuU_M-GH59_cyLtGDw60y0DRl3JtLRqwx4uK2pmy4xuPjnCsE5lCCnj-GVduh-lwN0Ms1FCXs_xZqc67VmAfZMIF6zRyie1cpJdG2o8ttwO3AzS_VP9DM83NvdfgYY7CZqiiQVhd2IG4J8Upx_m8ecZ" />
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-slate-400 h-48 rounded-xl overflow-hidden shadow-xl">
+                                <img loading="lazy"
+                                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                                    alt="Smartphone showing a sleek booking interface"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEpwhDRGFK7l28wdZg_h9NIbHruO9g8wsaUSQDOQhJNRjfQv8uY2BqNJAYSZqmBMtbQYVkljm9NNIonOpiNjcZp_L4OR3UKUJiD6G6uLaKRQwG7d--n1_WNRu44uMGHiudpJZxg8J9tNnHlJT0CQPcaVnBHsMKgCbUbl2lMa2v0BG9_NYqMln5AT6YNHDCT3Mibg2t_pRslO8BOhyZZaJzokp4tDjXhM_gNc2NQfoNSYEfvdEi1C_FhjeGt7c0S5F1U6FvjCQFlRR3" />
+                            </div>
+                            <div class="bg-slate-500 h-64 rounded-xl overflow-hidden shadow-xl">
+                                <img loading="lazy"
+                                    class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                                    alt="Abstract design layout for a professional service agency"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUbOV5XBEBRVZKFSP_WCkyYpwdRJZun85SnjtCcJYnJesBZcVrSJb3HFidfjNqgWhAgFjnXyZ8xeuzJEfru0R755ttjpysD0xFW8Y1JOCZGGgu2mH09DWiy5829Zf7xgUi735uKxjP9ePvogfLFeYf1pWvQY50tuufn0cRBj_WX7k3_tUOdq1cGqmKbzdRSLe7erq2SllC1PcsEG3BNo2jYMuuCKxwRWsP1QQcqTbZvWklXpuz8r2hm2FtIvamdjeGPNC23qaQlfKd" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary py-24 text-white">
+            <div class="max-w-5xl mx-auto px-6 text-center reveal">
+                <span class="inline-block text-accent font-bold tracking-widest uppercase text-xs mb-6">Built for
+                    Service Providers</span>
+                <h2 class="text-3xl md:text-5xl font-medium leading-tight text-white mb-0">
+                    Sterling Web is a new studio dedicated to service businesses, built by <span
+                        class="italic font-light">designers and developers</span> with real agency experience.
+                </h2>
+            </div>
+        </section>
+
+        <!-- Problems & Value -->
+        <section class="py-32 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-px bg-slate-200 border border-slate-200">
+                    <div class="bg-white p-12 md:p-20 reveal">
+                        <span class="material-symbols-outlined text-slate-400 text-4xl mb-8">error_outline</span>
+                        <h3 class="text-3xl font-black mb-6 text-primary">The DIY Trap</h3>
+                        <ul class="space-y-6">
+                            <li class="flex items-start gap-4">
+                                <span class="text-accent text-xl mt-1 font-bold">—</span>
+                                <p class="text-lg text-slate-600 mb-0">Struggling with DIY website builders that look
+                                    template-y and generic.</p>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <span class="text-accent text-xl mt-1 font-bold">—</span>
+                                <p class="text-lg text-slate-600 mb-0">Low conversion rates that don't represent the
+                                    premium nature of your brand.</p>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <span class="text-accent text-xl mt-1 font-bold">—</span>
+                                <p class="text-lg text-slate-600 mb-0">Complex tech stacks that break every time you try
+                                    to update your prices.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-primary p-12 md:p-20 text-white reveal delay-200">
+                        <span class="material-symbols-outlined text-accent text-4xl mb-8">verified</span>
+                        <h3 class="text-3xl font-black mb-6 text-white">The Sterling Solution</h3>
+                        <ul class="space-y-6">
+                            <li class="flex items-start gap-4">
+                                <span class="text-accent text-xl mt-1 font-bold">+</span>
+                                <p class="text-lg text-slate-300 font-medium mb-0">Clearer messaging that speaks
+                                    directly to your ideal client's pain points.</p>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <span class="text-accent text-xl mt-1 font-bold">+</span>
+                                <p class="text-lg text-slate-300 font-medium mb-0">High-converting layouts optimized for
+                                    booking calls and leads.</p>
+                            </li>
+                            <li class="flex items-start gap-4">
+                                <span class="text-accent text-xl mt-1 font-bold">+</span>
+                                <p class="text-lg text-slate-300 font-medium mb-0">Easy-to-manage updates tailored
+                                    specifically for service providers.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="py-32 bg-beige-custom" id="services">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 reveal">
+                    <div class="max-w-2xl">
+                        <h2 class="text-4xl md:text-5xl font-black text-primary mb-4 uppercase tracking-tighter">Core
+                            Capabilities</h2>
+                        <p class="text-lg text-slate-600">We don't just build sites; we build business tools designed to
+                            scale with your service.</p>
+                    </div>
+                    <div class="text-accent font-bold text-sm tracking-widest uppercase mb-2">01 — 04</div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div
+                        class="bg-white p-8 border border-primary/5 hover:border-accent/50 transition-colors flex flex-col justify-between h-80 reveal">
+                        <div>
+                            <span class="material-symbols-outlined text-accent mb-4">ads_click</span>
+                            <h4 class="text-xl font-bold text-primary">Conversion-Focused Website Design</h4>
+                        </div>
+                        <p class="text-sm text-slate-500">Your digital home base designed to build trust and capture
+                            leads automatically.</p>
+                    </div>
+                    <div
+                        class="bg-white p-8 border border-primary/5 hover:border-accent/50 transition-colors flex flex-col justify-between h-80 reveal delay-100">
+                        <div>
+                            <span class="material-symbols-outlined text-accent mb-4">bolt</span>
+                            <h4 class="text-xl font-bold text-primary">Landing Pages for Ads &amp; Campaigns</h4>
+                        </div>
+                        <p class="text-sm text-slate-500">High-performance pages built for specific offers and paid
+                            traffic conversion.</p>
+                    </div>
+                    <div
+                        class="bg-white p-8 border border-primary/5 hover:border-accent/50 transition-colors flex flex-col justify-between h-80 reveal delay-200">
+                        <div>
+                            <span class="material-symbols-outlined text-accent mb-4">lightbulb</span>
+                            <h4 class="text-xl font-bold text-primary">Brand &amp; Offer Clarity Workshop</h4>
+                        </div>
+                        <p class="text-sm text-slate-500">Strategic session to sharpen your positioning before a single
+                            pixel is moved.</p>
+                    </div>
+                    <div
+                        class="bg-white p-8 border border-primary/5 hover:border-accent/50 transition-colors flex flex-col justify-between h-80 reveal delay-300">
+                        <div>
+                            <span class="material-symbols-outlined text-accent mb-4">support_agent</span>
+                            <h4 class="text-xl font-bold text-primary">Ongoing Website Support</h4>
+                        </div>
+                        <p class="text-sm text-slate-500">Peace of mind with monthly updates, security, and performance
+                            tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Sterling Web -->
+        <section class="py-32 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                    <div class="lg:col-span-5 reveal">
+                        <h2 class="text-4xl md:text-5xl font-black text-primary mb-8 leading-tight">Clarity over trends.
+                            Direct access to founders.</h2>
+                        <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                            We avoid agency bloat. When you work with Sterling Web, you're speaking directly to the
+                            people building your business's future.
+                        </p>
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="size-12 rounded-full bg-accent/10 flex items-center justify-center text-accent">
+                                    <span class="material-symbols-outlined">person_pin</span>
+                                </div>
+                                <span class="font-bold text-primary">Founder-led every step of the way</span>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="size-12 rounded-full bg-accent/10 flex items-center justify-center text-accent">
+                                    <span class="material-symbols-outlined">target</span>
+                                </div>
+                                <span class="font-bold text-primary">Exclusively focused on service-based models</span>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div
+                                    class="size-12 rounded-full bg-accent/10 flex items-center justify-center text-accent">
+                                    <span class="material-symbols-outlined">visibility</span>
+                                </div>
+                                <span class="font-bold text-primary">Zero hidden fees or complex jargon</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 reveal delay-200">
+                        <div class="bg-primary aspect-[4/3] relative rounded-xl overflow-hidden">
+                            <img loading="lazy" class="w-full h-full object-cover opacity-80 mix-blend-overlay"
+                                alt="Team of two collaborating on a website structure layout"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGy3Kuv0mBM0qHzA21gLqAuOOU14wQ7F8uZW4yAAz-HVR_tit-XGp1gDpekB61dQ2m-fUELrO19QV-S3xw0Wo_t3QcqM5p6qVQGg9oBnDnvyCLB3HNRUWPh3RvZ7GIvVCYZFsUoN9vQAWI3x6-2uofmLzUtov5NI6U2wdydgrnvMK-t3DZxqfNQODSfxzBrcxQLcoVpRgJs1L4XfYKPx213vmHQ0lCKOwRpcrp18GzrmSnfd3TD30HFleeOz7DJcO5W4zdRJMdFsfr" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section class="py-32 bg-slate-50 border-y border-slate-200" id="process">
+            <div class="max-w-7xl mx-auto px-6 reveal">
+                <h2 class="text-4xl md:text-5xl font-black text-primary mb-20 text-center uppercase tracking-tighter">
+                    The Sterling Process</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-200 border border-slate-200">
+                    <div class="bg-slate-50 p-10 group hover:bg-white transition-all reveal">
+                        <span
+                            class="block text-accent font-black text-5xl mb-8 opacity-20 group-hover:opacity-100 transition-opacity">01</span>
+                        <h4 class="text-xl font-bold mb-4">Strategy &amp; Offer Clarity</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-0">We define your unique positioning and the
+                            specific goals for your site.</p>
+                    </div>
+                    <div class="bg-slate-50 p-10 group hover:bg-white transition-all reveal delay-100">
+                        <span
+                            class="block text-accent font-black text-5xl mb-8 opacity-20 group-hover:opacity-100 transition-opacity">02</span>
+                        <h4 class="text-xl font-bold mb-4">Content &amp; Structure</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-0">Mapping out the user journey and
+                            high-impact copy that converts visitors.</p>
+                    </div>
+                    <div class="bg-slate-50 p-10 group hover:bg-white transition-all reveal delay-200">
+                        <span
+                            class="block text-accent font-black text-5xl mb-8 opacity-20 group-hover:opacity-100 transition-opacity">03</span>
+                        <h4 class="text-xl font-bold mb-4">Design &amp; Build</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-0">Bringing your brand to life with
+                            professional, accessible, and fast design.</p>
+                    </div>
+                    <div class="bg-slate-50 p-10 group hover:bg-white transition-all reveal delay-300">
+                        <span
+                            class="block text-accent font-black text-5xl mb-8 opacity-20 group-hover:opacity-100 transition-opacity">04</span>
+                        <h4 class="text-xl font-bold mb-4">Launch &amp; Support</h4>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-0">We flip the switch and stick around to
+                            ensure everything runs perfectly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Example Concepts -->
+        <section class="py-32 bg-white" id="work">
+            <div class="max-w-7xl mx-auto px-6">
+                <h2 class="text-4xl md:text-5xl font-black text-primary mb-16 text-center reveal">Engineered for your
+                    industry</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="space-y-6 reveal">
+                        <div class="bg-slate-100 aspect-square rounded-xl overflow-hidden">
+                            <img loading="lazy" class="w-full h-full object-cover"
+                                alt="Luxury design concept for a business consultant"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBquNA6UMP1fgTqFYMulK7nh33nEFJfAsIU0hnJp9tRxTtM960psCBlKK6bsZvHt-coumf0Zo5j-sk6QxSFzpvCFBu-tKB9OtwjfWP9l1ijtlQ1m6RH4I1Rau_l-7Zi9SclKJjMj0jr2kAwNKWFH_mZHN2g8AqFgmmpKHly0KOsyKZtvkUoLbeWvommO85hEZq82GofDxfnx0vfz4MTlIVh35hREzi2__afU6lB_FixtUUEuKoo7xaf1LsctryBdMu815klxO4g7BG-" />
+                        </div>
+                        <h4 class="text-xl font-bold uppercase tracking-tight">The Executive Consultant</h4>
+                        <p class="text-slate-500">Minimalist, authority-building, and integrated with complex booking
+                            calendars.</p>
+                    </div>
+                    <div class="space-y-6 pt-12 reveal delay-100">
+                        <div class="bg-slate-100 aspect-square rounded-xl overflow-hidden">
+                            <img loading="lazy" class="w-full h-full object-cover"
+                                alt="Robust design concept for a local HVAC or trades company"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSXj25KI-8f9CoyfHkwz-mg3Bzq1YswBKUws7v0kmqtZq2BfmC_8_bbmRGZAnzmRP9qAFVFbqBWBen-2SsHhvIgTlcoFyp0J6dAq5VQmc257_NU9xTk28LSPLKzvEArerFKe8BmZzUDxAGU535c-f_f3vYY8YQZNTjiq4rOqcUtoW_3QhohbuG948RPu-n-53L8s3YRKU6O8GRL3Bq4AolnqNIYPzl28bOuOf9_6qni5qHa0WKWSPCZxUfTtXHUmEbFMiBiDRdhtds" />
+                        </div>
+                        <h4 class="text-xl font-bold uppercase tracking-tight">The Modern Tradesman</h4>
+                        <p class="text-slate-500">Local SEO-focused, mobile-first, and designed for instant
+                            click-to-call conversions.</p>
+                    </div>
+                    <div class="space-y-6 reveal delay-200">
+                        <div class="bg-slate-100 aspect-square rounded-xl overflow-hidden">
+                            <img loading="lazy" class="w-full h-full object-cover"
+                                alt="Energetic design concept for a fitness or health coach"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzBPcWjUGjOj9ziQzTAMQNKxe5EzOonh3o_MKA3hflFv1NpeMhxtpzAqMJRbQgojEf3T-iaEZD504-WcswH0PrcfP4h79FBPUgag_t40jN3W88ikXKz7mQwgFKj1RYiZr3n1_HN7Ou1K8pFdFptotgapnXS5Az-ydc-KQl87N9kxSjH9CPuM40yKcBSpea8S9EH1c0eMmHo90N5eS2EVwZqA8Opgp50lZUT26e7m8euSsdDQMxj9UgHvJHPCoARGJGb3QyLeuYGfgd" />
+                        </div>
+                        <h4 class="text-xl font-bold uppercase tracking-tight">The Lifestyle Coach</h4>
+                        <p class="text-slate-500">Video-heavy, story-driven, and optimized for recurring membership
+                            sign-ups.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="py-32 bg-beige-custom">
+            <div class="max-w-3xl mx-auto px-6">
+                <h2 class="text-4xl font-black text-primary mb-16 text-center reveal">Frequently Asked Questions</h2>
+                <div class="space-y-4 reveal delay-100">
+                    <details
+                        class="group bg-white rounded-lg border border-primary/5 open:border-accent/30 transition-all duration-300">
+                        <summary
+                            class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg">
+                            How long does a typical project take?
+                            <span
+                                class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                            Most full website builds take between 4 and 6 weeks from strategy call to launch, depending
+                            on the complexity of your offerings and content readiness.
+                        </div>
+                    </details>
+                    <details
+                        class="group bg-white rounded-lg border border-primary/5 open:border-accent/30 transition-all duration-300">
+                        <summary
+                            class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg">
+                            What technology stack do you use?
+                            <span
+                                class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                            We primarily build with modern, high-performance tools, tailored HTML/CSS/JS or optimal CMS
+                            platforms to ensure your site is blazing fast and user-friendly.
+                        </div>
+                    </details>
+                    <details
+                        class="group bg-white rounded-lg border border-primary/5 open:border-accent/30 transition-all duration-300">
+                        <summary
+                            class="flex items-center justify-between p-6 cursor-pointer list-none font-bold text-lg">
+                            Do you help with copy and photos?
+                            <span
+                                class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-slate-600 leading-relaxed">
+                            Yes! Strategy-led copywriting is part of our core package. For photography, we can provide
+                            art direction for your local shoot or curate premium stock libraries that fit your brand.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA & Form -->
+        <section class="py-32 bg-white relative" id="contact">
+            <div class="max-w-7xl mx-auto px-6 reveal">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                    <div>
+                        <h2 class="text-5xl md:text-6xl font-black text-primary mb-8 leading-tight">A site that doesn’t
+                            look generic.</h2>
+                        <p class="text-xl text-slate-600 mb-10">Stop blending in. Let's build the digital foundation
+                            your expertise deserves.</p>
+                        <div class="flex items-center gap-6">
+                            <div class="flex -space-x-3">
+                                <div class="size-10 rounded-full border-2 border-white bg-slate-300 overflow-hidden">
+                                    <img loading="lazy" alt="Professional consultant headshot"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1VlxVIj9CGVW6niDkm2OOAwFDCmxQNt8vSjG5k6pRVO2I3m-aviyQ1tZt2tKULvzdhASnjKg62kfgQ40Db3uuBzvhcFopUZJBuDOkeweORL8iCktdf0WDobyVc8Zy1joOxvniRtzFwLlAAM1pjH5uYgFgsaP7PD9xHigZaWOqvUcTLEIi5A4qVkegPiuFerzVCAhSvYUBX7rl4QGmp1ll6lSEtjuCJkEWa_LPeU9mMnYu_gDhn4U-KGjtReRLXpg0ZWDOTXSISwQT" />
+                                </div>
+                                <div class="size-10 rounded-full border-2 border-white bg-slate-300 overflow-hidden">
+                                    <img loading="lazy" alt="Female business owner headshot"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPpktEu74UbrrZAqhljsM3FXuq7hKPRuB-nf-HQnEv0KiDM2DhQRwuIlNeW9OVPhjrFbX3ShhFDwEmTk_CayDkRBCCO4_HWdq90gHa2FZ--fMzQh5QfYv-kMoQ398SW1nGAgBXKwZ6YyxYg_yL64-MplqUE-NAO0L7L8stN5bxIRHycZsYNlrPk32hSgF2DgMiV1xZHIG81iVvGQmqocY9bslverc9cDOeOTHiuBjS9rOeeimZDMl07S-W0NhOVgmB5CLoxoLI8w5d" />
+                                </div>
+                                <div class="size-10 rounded-full border-2 border-white bg-slate-300 overflow-hidden">
+                                    <img loading="lazy" alt="Founder headshot"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsz_yPmzHjb2EOfH68p5mBapcSZ47_Y9BDYSzgKENdfqVxTfJwMZlBFes5rYcSRxmRqRHGFX4iTGnDsdw462Q3ilKbtkJ9HxdDfBeCGIxLq43CU86K70GedQPMKu-i4rMO5-8Roeevcu0WmwhfMnZv1mO1Rz8SQJXz1Nd0K9h3T0UvbZ9OPenOJLxxefFHW2vdr9en16uUwnUfog290EGaKvTzZhzFRPU80t1rfqfUzHYk6Pxzw7l_OBmv1H44CUT5HGHppyBGeIsV" />
+                                </div>
+                            </div>
+                            <p class="text-sm font-medium text-slate-500 mb-0">Trusted by 50+ service providers</p>
+                        </div>
+                        <div class="mt-8 pt-8 border-t border-slate-200">
+                            <p class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">Call us directly
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <span class="material-symbols-outlined text-accent">call</span>
+                                <a class="text-2xl font-black text-primary hover:text-accent transition-colors tracking-tight"
+                                    href="tel:+15550000000">+1 (555) 000-0000</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-primary p-10 md:p-14 rounded-2xl text-white shadow-2xl reveal delay-200">
+                        <form id="contact-form" action="https://formsubmit.co/ajax/bassilalsoudani@gmail.com"
+                            method="POST" class="space-y-6">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="text" name="_honey" style="display:none">
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="space-y-2">
+                                    <label class="text-xs font-bold uppercase tracking-widest text-slate-400"
+                                        for="name">Name</label>
+                                    <input id="name" name="name" required
+                                        class="w-full bg-slate-800/50 border-none rounded-lg p-4 focus:ring-2 focus:ring-accent transition-all text-white placeholder:text-slate-500"
+                                        placeholder="John Doe" type="text" />
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="text-xs font-bold uppercase tracking-widest text-slate-400"
+                                        for="email">Email</label>
+                                    <input id="email" name="email" required
+                                        class="w-full bg-slate-800/50 border-none rounded-lg p-4 focus:ring-2 focus:ring-accent transition-all text-white placeholder:text-slate-500"
+                                        placeholder="john@example.com" type="email" />
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold uppercase tracking-widest text-slate-400"
+                                    for="business_type">Business Type</label>
+                                <input id="business_type" name="business_type" required
+                                    class="w-full bg-slate-800/50 border-none rounded-lg p-4 focus:ring-2 focus:ring-accent transition-all text-white placeholder:text-slate-500"
+                                    placeholder="Consulting, Fitness, Legal, etc." type="text" />
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold uppercase tracking-widest text-slate-400"
+                                    for="message">Your Goal</label>
+                                <textarea id="message" name="message" required
+                                    class="w-full bg-slate-800/50 border-none rounded-lg p-4 focus:ring-2 focus:ring-accent transition-all text-white placeholder:text-slate-500"
+                                    placeholder="Tell us about your project..." rows="4"></textarea>
+                            </div>
+                            <button id="submit-btn"
+                                class="w-full bg-accent text-primary py-5 rounded-lg font-black text-xl hover:brightness-110 shadow-lg shadow-accent/20 transition-all uppercase tracking-tight flex items-center justify-center gap-2"
+                                type="submit">
+                                <span>Start My Project</span>
+                            </button>
+
+                            <!-- Status Message -->
+                            <div id="form-message" class="hidden text-sm font-bold text-center mt-4"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary py-20 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+                <div class="flex items-center gap-2 text-white reveal">
+                    <span class="material-symbols-outlined text-3xl font-bold">architecture</span>
+                    <span class="text-2xl font-black tracking-tighter uppercase">Sterling Web</span>
+                </div>
+                <div class="flex flex-wrap gap-10 reveal delay-100">
+                    <a class="text-slate-400 hover:text-accent transition-colors text-sm font-medium"
+                        href="#services">Services</a>
+                    <a class="text-slate-400 hover:text-accent transition-colors text-sm font-medium"
+                        href="#process">Process</a>
+                    <a class="text-slate-400 hover:text-accent transition-colors text-sm font-medium"
+                        href="#work">Portfolio</a>
+                    <a class="text-slate-400 hover:text-accent transition-colors text-sm font-medium" href="#">Privacy
+                        &amp; Terms</a>
+                </div>
+                <div class="flex gap-6 reveal delay-200">
+                    <a class="text-slate-400 hover:text-accent transition-colors" href="#" aria-label="Share">
+                        <span class="material-symbols-outlined">share</span>
+                    </a>
+                    <a class="text-slate-400 hover:text-accent transition-colors"
+                        href="mailto:bassilalsoudani@gmail.com" aria-label="Email Us">
+                        <span class="material-symbols-outlined">mail</span>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 reveal delay-300">
+                <p class="text-slate-500 text-xs mb-0">© 2024 Sterling Web Studio. All rights reserved.</p>
+                <p class="text-slate-500 text-xs flex items-center gap-1 mb-0">Designed for conversion <span
+                        class="material-symbols-outlined text-[10px] text-accent">favorite</span> with focus on speed
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+
+</body>
+
+</html>
